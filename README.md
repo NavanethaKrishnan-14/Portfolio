@@ -43,7 +43,6 @@ A professional portfolio template built with **Next.js 16**, **React 19**, and *
 - ✅ **Easy Customization**: Simple data-driven configuration
 - ✅ **Contact Form**: Integrated email and Telegram notifications
 - ✅ **Dark Theme**: Beautiful gradient design with Lottie animations
-- ✅ **Docker Support**: Easy containerized deployment
 - ✅ **Google Analytics**: Track visitor insights with GTM support
 
 ---
@@ -112,7 +111,6 @@ This portfolio leverages the latest Next.js 16 and React 19 capabilities:
 | **Lottie**       | Latest  | Lightweight animations                    |
 | **Nodemailer**   | Latest  | Email sending functionality               |
 | **Axios**        | Latest  | HTTP client for API requests              |
-| **Docker**       | -       | Containerization platform                 |
 
 ---
 
@@ -183,47 +181,6 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
-
----
-
-### 🐳 Docker Deployment (Alternative)
-
-#### Option 1: Using Docker Compose (Recommended)
-
-```bash
-docker-compose up --build
-
-# Run in detached mode
-docker-compose up -d --build
-
-# Stop
-docker-compose down
-```
-
-#### Option 2: Using Docker Directly
-
-**For Development:**
-
-```bash
-# Build the development image
-docker build -t developer-portfolio:dev -f Dockerfile.dev .
-
-# Run the container
-docker run -p 3000:3000 --name portfolio-dev developer-portfolio:dev
-
-# Stop and remove container
-docker stop portfolio-dev && docker rm portfolio-dev
-```
-
-**For Production:**
-
-```bash
-# Build the production image
-docker build -t developer-portfolio:prod -f Dockerfile.prod .
-
-# Run the production container
-docker run -p 3000:3000 --name portfolio-prod developer-portfolio:prod
-```
 
 ---
 
@@ -346,19 +303,6 @@ profile: "/your-image-name.png"; // or .jpg, .webp
 5. Add environment variables in **Site Settings** → **Environment**
 
 ---
-
-### 🐳 Deploy with Docker
-
-```bash
-# Build production image
-docker build -t developer-portfolio:prod -f Dockerfile.prod .
-
-# Run
-docker run -d -p 80:3000 --name portfolio developer-portfolio:prod
-
-# Or use Docker Compose
-docker-compose -f docker-compose.prod.yml up -d
-```
 
 ---
 

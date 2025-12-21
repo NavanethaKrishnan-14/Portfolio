@@ -118,11 +118,11 @@ This portfolio leverages the latest Next.js 16 and React 19 capabilities:
 
 Before you begin, ensure you have the following installed on your machine:
 
-| Tool                   | Minimum Version | Download Link                               |
-| ---------------------- | --------------- | ------------------------------------------- |
-| **Node.js**            | v18.17.0+       | [Download](https://nodejs.org/en/download/) |
-| **Git**                | Latest          | [Download](https://git-scm.com/downloads)   |
-| **pnpm** (recommended) | Latest          | [Install](https://pnpm.io/installation)     |
+| Tool                  | Minimum Version | Download Link                                                                |
+| --------------------- | --------------- | ---------------------------------------------------------------------------- |
+| **Node.js**           | v18.17.0+       | [Download](https://nodejs.org/en/download/)                                  |
+| **Git**               | Latest          | [Download](https://git-scm.com/downloads)                                    |
+| **npm** (recommended) | Latest          | [Install](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) |
 
 > **Note**: Next.js 16 requires Node.js 18.17 or later. Node.js 20+ is recommended for optimal performance.
 
@@ -133,7 +133,7 @@ Check your installations with these commands:
 ```bash
 node --version
 git --version
-pnpm --version  # or npm --version
+npm --version
 ```
 
 ---
@@ -150,10 +150,7 @@ cd developer-portfolio
 ### 2. Install Dependencies
 
 ```bash
-# Using pnpm (recommended)
-pnpm install
-
-# Using npm
+# Using npm (recommended)
 npm install
 
 # Using yarn
@@ -171,11 +168,9 @@ Edit the `.env` file with your values (see [Usage](#usage-joystick) section).
 ### 4. Run the Development Server
 
 ```bash
-pnpm dev
-# or
 npm run dev
 # or
-yarn dev
+# yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
@@ -423,15 +418,14 @@ PORT=3001 npm run dev
 **Solution:**
 
 ```bash
-# Clear cache and reinstall dependencies
+# Clear cache and reinstall dependencies (npm)
 rm -rf node_modules package-lock.json
 npm cache clean --force
 npm install
 
-# Or with pnpm:
+# If switching from pnpm: remove pnpm lockfile then install with npm
 rm -rf node_modules pnpm-lock.yaml
-pnpm store prune
-pnpm install
+npm install
 ```
 
 </details>
@@ -494,9 +488,15 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ## <!-- Deployment section removed -->
 
 ## Support :coffee:
-#   P o r t f o l i o  
- #   P o r t f o l i o  
- #   P o r t f o l i o  
- #   P o r t f o l i o  
- #   P o r t f o l i o  
+
+#   P o r t f o l i o 
+ 
+ #   P o r t f o l i o 
+ 
+ #   P o r t f o l i o 
+ 
+ #   P o r t f o l i o 
+ 
+ #   P o r t f o l i o 
+ 
  

@@ -422,10 +422,6 @@ PORT=3001 npm run dev
 rm -rf node_modules package-lock.json
 npm cache clean --force
 npm install
-
-# If switching from pnpm: remove pnpm lockfile then install with npm
-rm -rf node_modules pnpm-lock.yaml
-npm install
 ```
 
 </details>

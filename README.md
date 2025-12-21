@@ -19,7 +19,6 @@
   <a href="#features-sparkles">Features</a> •
   <a href="#installation-arrow_down">Installation</a> •
   <a href="#usage-joystick">Usage</a> •
-  <a href="#deployment-rocket">Deployment</a> •
   <a href="#tutorials-wrench">Tutorials</a>
 </p>
 
@@ -89,7 +88,6 @@ This portfolio leverages the latest Next.js 16 and React 19 capabilities:
 - [Installation](#installation-arrow_down)
 - [Getting Started](#getting-started-dart)
 - [Usage](#usage-joystick)
-- [Deployment](#deployment-rocket)
 - [Tutorials](#tutorials-wrench)
   - [Gmail App Password Setup](#gmail-app-password-setup)
   - [Create a Telegram Bot](#create-a-telegram-bot)
@@ -493,15 +491,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ---
 
+## <!-- Deployment section removed -->
+
 ## Support :coffee:
-
-- ⭐ [Star the repository](https://github.com/said7388/developer-portfolio/stargazers)
-- � [Report bugs](https://github.com/said7388/developer-portfolio/issues)
-- � [Suggest features](https://github.com/said7388/developer-portfolio/discussions)
-
----
-
-![GitHub stars](https://img.shields.io/github/stars/said7388/developer-portfolio?style=social)
-![GitHub forks](https://img.shields.io/github/forks/said7388/developer-portfolio?style=social)
-![GitHub issues](https://img.shields.io/github/issues/said7388/developer-portfolio)
-![GitHub license](https://img.shields.io/github/license/said7388/developer-portfolio)

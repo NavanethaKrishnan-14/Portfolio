@@ -18,7 +18,7 @@ function Footer() {
               href="https://www.linkedin.com/in/navanetha-krishnan-s-71143126a"
               className="text-[#16f2b3]"
             >
-              Navanetha Krishnan Said
+              Navanetha Krishnan
             </Link>
           </p>
           <div className="flex items-center gap-5">

@@ -11,5 +11,5 @@ export const personalData = {
   facebook: "",
   linkedIn: "https://www.linkedin.com/in/navanetha-krishnan-s-71143126a",
   resume:
-    "https://drive.google.com/file/d/1AwJZgCl7BV9k0Y9QTEbllu6WdGmJJRb8/view?usp=drive_link",
+    "https://drive.google.com/file/d/1BeT-sgzwnwAKr80JzLI-ijaQMESzuA0y/view?usp=drive_link",
 };
